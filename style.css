@@ -1,0 +1,32 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+    background-size: 100%;
+    background-position: top;
+    background-color: hsl(275, 100%, 97%);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#background-image {
+    width: 100%;
+    position: relative;
+    top: -1px;
+}
+
+#accordion {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.accordion-btn {
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.accordion-btn:hover {
+    color: #9e40ce;
+}
+
+.color-text {
+    color: hsl(292, 16%, 49%);
+}
